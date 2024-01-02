@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    background-color: peru;
+    padding: 10px;
+}
+
+.header div {
+    min-width: 900px;
+}
