@@ -9,7 +9,7 @@ export default function MainNav () {
         <li><a rel="noopener noreferrer" target="_blank" href="/Resume.pdf">Resume</a></li>
         <li><Link href="/services">Services</Link></li>
         <li><Link href="/projects">Projects</Link></li>
-        <li><Link href="/blog">Blog</Link></li>
+        {/* <li><Link href="/blog">Blog</Link></li> */}
         <li><Link href="/about">About</Link></li>
       </ul>
 
