@@ -1,0 +1,25 @@
+.icon {
+    transition: fill 0.25s;
+    fill: #fff;
+}
+
+.mastodon,
+.github,
+.linkedin {
+    composes: icon;
+}
+
+.mastodon:hover,
+.mastodon:active {
+    fill: #6364FF;
+}
+
+.github:hover,
+.github:active {
+    fill: #24292f;
+}
+
+.linkedin:hover,
+.linkedin:active {
+    fill: #0077B5;
+}

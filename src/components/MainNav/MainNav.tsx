@@ -1,5 +1,8 @@
 import Link from "next/link";
 import styles from "./MainNav.module.css";
+import MastodonLogo from "../icons/MastodonLogo";
+import GitHubLogo from "../icons/GithubLogo";
+import LinkedinLogo from "../icons/LinkedInLogo";
 
 export default function MainNav () {
   return (
@@ -14,9 +17,21 @@ export default function MainNav () {
       </ul>
 
       <ul>
-        <li><a href="https://github.com/EileenMcCall" rel="noopener noreferrer" target="_blank">Github</a></li>
-        <li><a href="https://tech.lgbt/@eileenmccall" rel="noopener noreferrer" target="_blank">Mastodon</a></li>
-        <li><a href="https://www.linkedin.com/in/eileenmccall/" rel="noopener noreferrer" target="_blank">LinkedIn</a></li>
+        <li>
+          <a href="https://github.com/EileenMcCall" rel="noopener noreferrer" target="_blank">
+            <GitHubLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://tech.lgbt/@eileenmccall" rel="noopener noreferrer" target="_blank">
+            <MastodonLogo />
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/eileenmccall/" rel="noopener noreferrer" target="_blank">
+            <LinkedinLogo />
+          </a>
+        </li>
       </ul>
     </nav>
   );
