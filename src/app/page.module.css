@@ -6,3 +6,15 @@
   padding: 6rem;
   min-height: 100vh;
 }
+
+.toolsList {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+}
+
+.toolsList li {
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+}
