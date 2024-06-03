@@ -46,7 +46,7 @@ export default function Home() {
                             </a>
                             </li>
                             <li>
-                            <a href="https://tech.lgbt/@eileenmccall" rel="noopener noreferrer" target="_blank">
+                            <a href="https://tech.lgbt/@eibhlinniccolla" rel="noopener noreferrer" target="_blank">
                                 <MastodonLogo />
                             </a>
                             </li>
