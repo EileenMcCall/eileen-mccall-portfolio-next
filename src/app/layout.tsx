@@ -5,8 +5,8 @@ import Header from '@/components/Header/Header';
 import { firaCode, deasChlo } from "./fonts";
 
 export const metadata: Metadata = {
-  title: 'Da Code Zone 💀',
-  description: 'ABANDON HOPE ALL YE WHO ENTER HERE',
+  title: 'Eibhlìn NicColla',
+  description: 'Eibhlìn NicColla is a web developer, and Gaelic learner.',
 }
 
 export default function RootLayout({
