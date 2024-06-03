@@ -1,10 +1,8 @@
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
 import './globals.css'
 import styles from "./layout.module.css";
 import Header from '@/components/Header/Header';
-
-const inter = Inter({ subsets: ['latin'] })
+import { firaCode, deasChlo } from "./fonts";
 
 export const metadata: Metadata = {
   title: 'Da Code Zone 💀',
@@ -18,8 +16,8 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <Header />
+      <body className={`${firaCode.variable} ${deasChlo.variable}`}>
+        {/* <Header /> */}
         <main className={styles.mainContent}>
           {children}
         </main>

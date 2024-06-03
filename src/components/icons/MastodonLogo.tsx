@@ -1,13 +1,17 @@
 import styles from "./icons.module.css";
 
-export default function MastodonLogo () {
+interface LogoProps {
+    fill?: string;
+}
+
+export default function MastodonLogo ({fill = "#282828"}: LogoProps) {
     return (
         <svg
             width="25"
             height="25"
             className={styles.mastodon}
             viewBox="0 0 75 79" 
-            fill="none" 
+            fill={fill} 
             xmlns="http://www.w3.org/2000/svg"
             role="img"
         >

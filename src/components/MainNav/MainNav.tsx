@@ -18,7 +18,7 @@ export default function MainNav () {
 
       <ul>
         <li>
-          <a href="https://github.com/EileenMcCall" rel="noopener noreferrer" target="_blank">
+          <a href="https://github.com/EibhlinNicColla" rel="noopener noreferrer" target="_blank">
             <GitHubLogo />
           </a>
         </li>
