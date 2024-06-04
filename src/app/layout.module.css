@@ -1,4 +1,11 @@
 .mainContent {
-    width: 575px;
-    margin: 100px auto;
+    margin: 50px 0;
+    width: 100%;
+}
+
+@media screen and (min-width: 575px) {
+    .mainContent {
+        margin: 100px auto;
+        width: 575px;
+    }
 }

@@ -26,42 +26,40 @@ export default function Home() {
     ]
 
     return (
-        <main>
-            <section className={styles.intro}>
-                <div className={styles.intro__container}>
-                    <Image style={{borderRadius: "5px"}} width={250} height={250} alt="headshot" src="/headshot.png" className={styles.intro__image}/>
-                    <div className={styles.intro__text}>
-                        <h2>
-                            <span className={styles.intro__intro}>
-                                Hello! I'm
-                            </span>
-                            <span className={styles.intro__name}>
-                                Eibhlìn NicColla
-                            </span>
-                        </h2>
-                        <ul className={styles.intro__socials}>
-                            <li>
-                            <a href="https://github.com/EibhlinNicColla" rel="noopener noreferrer" target="_blank">
-                                <GitHubLogo/>
-                            </a>
-                            </li>
-                            <li>
-                            <a href="https://tech.lgbt/@eibhlinniccolla" rel="noopener noreferrer" target="_blank">
-                                <MastodonLogo />
-                            </a>
-                            </li>
-                            <li>
-                            <a href="https://www.linkedin.com/in/eileenmccall/" rel="noopener noreferrer" target="_blank">
-                                <LinkedinLogo />
-                            </a>
-                            </li>
-                        </ul>
-                    </div>
-
+        <section className={styles.intro}>
+            <div className={styles.intro__container}>
+                <Image style={{borderRadius: "5px"}} width={250} height={250} alt="headshot" src="/headshot.png" className={styles.intro__image}/>
+                <div className={styles.intro__text}>
+                    <h2>
+                        <span className={styles.intro__intro}>
+                            Hello! I'm
+                        </span>
+                        <span className={styles.intro__name}>
+                            Eibhlìn<br />NicColla
+                        </span>
+                    </h2>
+                    <ul className={styles.intro__socials}>
+                        <li>
+                        <a href="https://github.com/EibhlinNicColla" rel="noopener noreferrer" target="_blank">
+                            <GitHubLogo/>
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://tech.lgbt/@eibhlinniccolla" rel="noopener noreferrer" target="_blank">
+                            <MastodonLogo />
+                        </a>
+                        </li>
+                        <li>
+                        <a href="https://www.linkedin.com/in/eileenmccall/" rel="noopener noreferrer" target="_blank">
+                            <LinkedinLogo />
+                        </a>
+                        </li>
+                    </ul>
                 </div>
-                <p style={{maxWidth: "575px", marginBottom: "24px", lineHeight: "35px"}}>I'm an American-Canadian web developer, Gaelic learner, and musician based out of Cape Breton, Nova Scotia. I'm out to help small businesses and endangered langauges thrive through quality software, apps, and websites.</p>
-                <p style={{maxWidth: "575px"}}></p>
-            </section>
+
+            </div>
+            <p className={styles.intro__description}>I'm an American-Canadian web developer, Gaelic learner, and musician based out of Cape Breton, Nova Scotia. I'm out to help small businesses and endangered langauges thrive through quality software, apps, and websites.</p>
+            <p style={{maxWidth: "575px"}}></p>
             {/* <section>
                 <h3>Tools</h3>
                 <p>Here are the tools that I use for my web development projects:</p>
@@ -74,6 +72,6 @@ export default function Home() {
                 </ul>
             </section>
             <ContactForm /> */}
-        </main>
+        </section>
     )
 }
