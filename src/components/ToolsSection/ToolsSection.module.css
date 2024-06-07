@@ -1,0 +1,17 @@
+.tools__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+}
+
+@media screen and (min-width: var(--mobile-breakpoint)) {
+  .tools__title,
+  .tools__description {
+    text-align: left;
+  }
+
+  .tools__list {
+    justify-content: flex-start;
+  }
+}

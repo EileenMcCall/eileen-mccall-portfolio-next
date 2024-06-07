@@ -1,9 +1,12 @@
 .icon {
-    transition: fill 0.25s;
+    margin-bottom: 0px;
+    display: inline-block;
+    height: 25px;
 }
 
 .mastodon,
 .github,
+.email,
 .linkedin {
     composes: icon;
 }
@@ -21,4 +24,9 @@
 .linkedin:hover,
 .linkedin:active {
     fill: #0077B5;
+}
+
+.email:hover,
+.email:active {
+    fill: white;
 }
