@@ -4,17 +4,15 @@ import GitHubLogo from "../icons/GithubLogo";
 import MastodonLogo from "../icons/MastodonLogo";
 import LinkedinLogo from "../icons/LinkedInLogo";
 import EmailIcon from "../icons/EmailIcon";
+import headshotPng from "@public/headshot.png";
 
 export default function IntroSection () {
     return (
         <section className={styles.intro}>
         <div className={styles.intro__container}>
             <Image
-                style={{borderRadius: "5px"}} 
-                width={285} 
-                height={285} 
                 alt="headshot" 
-                src="/headshot.png" 
+                src={headshotPng} 
                 className={styles.intro__image}
             />
             <div className={styles.intro__text}>

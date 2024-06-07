@@ -3,7 +3,10 @@
 }
 
 .intro__image {
+    border-radius: 5px;
+    height: 285px;
     margin-bottom: 18px;
+    width: 285px;
 }
 
 .intro__container {
@@ -57,13 +60,11 @@
         align-items: stretch;
     }
 
-    .intro__text {
-        margin-top: 36px;
-    }
-
     .intro__image {
         margin-right: 16px;
         margin-bottom: 0;
+        height: 250px;
+        width: 250px;
     }
 
     .intro__description {
