@@ -63,7 +63,7 @@ export default function IntroSection () {
                 </ul>
             </div>
         </div>
-        <p className={styles.intro__description}>I'm an American web developer, Gaelic learner, and soon-to-be Cape Bretoner. I'm out to help small businesses and endangered langauges thrive through quality software, apps, and websites.</p>
+        <p className={styles.intro__description}>I'm an American web developer, Gaelic learner, and soon-to-be Cape Bretoner. I'm out to help small businesses and endangered languages thrive through quality software, apps, and websites.</p>
         <p className={styles.intro__description}>This app is a work in progress, follow along and feel free to submit any issues <a href="https://github.com/eibhlinniccolla/eileen-mccall-portfolio-next" rel="noopener no referrer" target="_blank">here.</a></p>
     </section>
     );
