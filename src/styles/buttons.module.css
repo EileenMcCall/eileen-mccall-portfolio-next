@@ -1,0 +1,34 @@
+
+.button {
+    font-family: var(--firaCode);
+    display: inline-block;
+    padding: 12px;
+    transition: all 0.25s;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.button__primary {
+    composes: button;
+    
+    background-color: transparent;
+    border: 1px solid #383838;
+    color: #282828;
+}
+
+.button__primary:active {
+    background-color: #383838;
+}
+
+.button__primary:hover {
+    background-color: #282828;
+    color: white;
+}
+
+.button__primary:disabled {
+    border: none;
+    color: #282828;
+    background-color: gray;
+    cursor: not-allowed;
+}

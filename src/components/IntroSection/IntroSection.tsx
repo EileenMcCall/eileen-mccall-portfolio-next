@@ -55,11 +55,6 @@ export default function IntroSection () {
                             <LinkedinLogo />
                         </a>
                     </li>
-                    <li>
-                        <a className="icon" href="mailto:eibhlinniccolla@gmail.com">
-                            <EmailIcon />
-                        </a>
-                    </li>
                 </ul>
             </div>
         </div>

@@ -48,28 +48,6 @@ p, a:not(.icon) {
   margin-bottom: 24px;
 }
 
-button {
-  font-family: var(--firaCode);
-  display: inline-block;
-  padding: 12px;
-  border: 1px solid #383838;
-  background-color: transparent;
-  transition: all 0.25s;
-  border-radius: 2px;
-  cursor: pointer;
-  font-size: 16px;
-}
-
-button:hover {
-  background-color: #282828;
-  color: white;
-  border: none;
-}
-
-button:active {
-  background-color: #383838;
-}
-
 section {
   padding: 0 16px;
   margin-bottom: 36px;
