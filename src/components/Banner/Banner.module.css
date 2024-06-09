@@ -1,0 +1,16 @@
+.error,
+.primary {
+    color: white;
+    font-family: var(--firaCode);
+    padding: 8px;
+    border-radius: 4px;
+    font-size: 16px;
+}
+
+.primary {
+    background-color: #282828;
+}
+
+.error {
+    background-color: #9b3b3b;
+}

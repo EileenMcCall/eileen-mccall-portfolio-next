@@ -10,6 +10,7 @@
     "obsidian-export": "rm -rf notes/* && ts-node --esm scripts/obsidian-export/index.ts"
   },
   "dependencies": {
+    "axios": "^1.7.2",
     "next": "14.0.4",
     "react": "^18",
     "react-dom": "^18"
