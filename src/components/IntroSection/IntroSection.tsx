@@ -5,6 +5,7 @@ import MastodonLogo from "../icons/MastodonLogo";
 import LinkedinLogo from "../icons/LinkedInLogo";
 import EmailIcon from "../icons/EmailIcon";
 import headshotPng from "@public/headshot.png";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 export default function IntroSection () {
     return (
@@ -24,38 +25,7 @@ export default function IntroSection () {
                         Eibhlìn<br />NicColla
                     </span>
                 </h1>
-                <ul className={styles.intro__socials}>
-                    <li>
-                        <a 
-                            className="icon" 
-                            href="https://github.com/EibhlinNicColla" 
-                            rel="noopener noreferrer" 
-                            target="_blank"
-                        >
-                            <GitHubLogo />
-                        </a>
-                    </li>
-                    <li>
-                        <a 
-                            className="icon" 
-                            href="https://tech.lgbt/@eibhlinniccolla" 
-                            rel="noopener noreferrer" 
-                            target="_blank"
-                        >
-                            <MastodonLogo />
-                        </a>
-                    </li>
-                    <li>
-                        <a 
-                            className="icon" 
-                            href="https://www.linkedin.com/in/eileenmccall/" 
-                            rel="noopener noreferrer" 
-                            target="_blank"
-                        >
-                            <LinkedinLogo />
-                        </a>
-                    </li>
-                </ul>
+                <SocialIcons />
             </div>
         </div>
         <p className={styles.intro__description}>I'm an American web developer, Gaelic learner, and soon-to-be Cape Bretoner. I'm out to help small businesses and endangered languages thrive through quality software, apps, and websites.</p>

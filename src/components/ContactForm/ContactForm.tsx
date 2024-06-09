@@ -5,6 +5,7 @@ import buttonStyles from "@styles/buttons.module.css";
 import { ChangeEvent, FormEvent, useState } from "react";
 import axios from "axios";
 import Banner from "../Banner/Banner";
+import SocialIcons from "../SocialIcons/SocialIcons";
 
 export default function ContactForm() {
     var [ formData, setFormData ] = useState({
@@ -89,6 +90,7 @@ export default function ContactForm() {
                 ></input>
                 <button className={buttonStyles.button__primary} type="submit" disabled={buttonDisabled}>Submit</button>
             </form>
+            <SocialIcons />
         </section>
     );
 
