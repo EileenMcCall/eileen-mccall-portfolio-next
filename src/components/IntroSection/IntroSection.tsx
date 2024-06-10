@@ -29,7 +29,7 @@ export default function IntroSection () {
             </div>
         </div>
         <p className={styles.intro__description}>I'm an American web developer, Gaelic learner, and soon-to-be Cape Bretoner. I'm out to help small businesses and endangered languages thrive through quality software, apps, and websites.</p>
-        <p className={styles.intro__description}>This app is a work in progress, follow along and feel free to submit any issues <a href="https://github.com/eibhlinniccolla/eileen-mccall-portfolio-next" rel="noopener no referrer" target="_blank">here.</a></p>
+        <p className={styles.intro__description}>I don't have a blog, so the best way to keep up with what I'm working on is by following me over on <a href="https://tech.lgbt/@eibhlinniccolla" rel="noopener noreferrer" target="_blank">Mastodon</a>.</p>
     </section>
     );
 }

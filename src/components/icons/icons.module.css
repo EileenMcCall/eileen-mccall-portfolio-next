@@ -11,22 +11,14 @@
     composes: icon;
 }
 
-.mastodon:hover,
-.mastodon:active {
+.mastodon{
     fill: #6364FF;
 }
 
-.github:hover,
-.github:active {
-    fill: #24292f;
+.github{
+    fill: #282828;
 }
 
-.linkedin:hover,
-.linkedin:active {
+.linkedin {
     fill: #0077B5;
-}
-
-.email:hover,
-.email:active {
-    fill: white;
 }

@@ -8,11 +8,13 @@ import LinkedinLogo from '@/components/icons/LinkedInLogo';
 import EmailIcon from '@/components/icons/EmailIcon';
 import ToolsSection from '@/components/ToolsSection/ToolsSection';
 import IntroSection from '@/components/IntroSection/IntroSection';
+import ProjectsPreview from '@/components/ProjectsPreview/ProjectsPreview';
 
 export default function Home() {
     return (
         <>
             <IntroSection />
+            <ProjectsPreview />
             <ToolsSection />
             <ContactForm />
         </>
